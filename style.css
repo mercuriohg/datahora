@@ -32,3 +32,18 @@ footer{
 img{
     border-radius: 100%;
 }
+@media (max-width: 550px){
+    .content{
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: 340px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 4px 5px 20px black;
+}
+img{
+    width: 300px;
+    border-radius: 100%;
+}
+}
