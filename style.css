@@ -32,7 +32,7 @@ footer{
 img{
     border-radius: 100%;
 }
-@media (max-width: 550px){
+@media (max-width: 450px){
     .content{
     background-color: white;
     color: black;
