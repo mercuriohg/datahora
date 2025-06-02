@@ -1,11 +1,10 @@
 function carregar(){
     let msg = document.getElementById('msg')
     const img = document.getElementById('img')
-    var data = new Date()
-    var hora = data.getHours()
+    const data = new Date()
+    let hora = data.getHours()
     let minutos = data.getMinutes()
-    let segundos = data.getSeconds()
-    msg.innerText = `Agora é ${hora}h ${minutos} min ${segundos} s`
+    msg.innerText = `Agora é ${hora}h ${minutos} min`
     if (hora >= 0 && hora < 12){
         img.src = 'img/dia-redimensionado.jpg'
         document.body.style.background = '#f9db4a'
