@@ -7,6 +7,8 @@ function carregar(){
     msg.innerText = `Agora é ${hora}h ${minutos} min`
     if (hora >= 0 && hora < 12){
         img.src = 'img/dia-redimensionado.jpg'
+        document.h1.style.color = 'purple'
+        document.p.style.color = 'purple'
         document.body.style.background = '#f9db4a'
     } else if (hora >= 12  && hora <= 18){
         img.src = 'img/tarde-redimensionado.jpg'
