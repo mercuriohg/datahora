@@ -1,9 +1,9 @@
 function carregar(){
     let msg = document.getElementById('msg')
     const img = document.getElementById('img')
-    //const data = new Date()
-    let hora = 3
-    let minutos = 51
+    const data = new Date()
+    let hora = data.getHours()
+    let minutos = data.getMinutes()
     if (hora >= 0 && hora < 12){
         msg.innerHTML = `Agora é ${hora}h ${minutos} min\n BOM DIA!!!`
         img.src = 'img/dia-redimensionado.jpg'
